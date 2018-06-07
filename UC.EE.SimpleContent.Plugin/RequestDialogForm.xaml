@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="UC.EE.SimpleContent.Plugin.RequestDialogForm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UC.EE.SimpleContent.Plugin"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="0,0,0,10">
+
+        <Grid HorizontalAlignment="Left" MinHeight="102" Margin="10,10,0,0" VerticalAlignment="Top" Width="590">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MaxWidth="150" MinWidth="100"/>
+                <ColumnDefinition MinWidth="50"/>
+                <ColumnDefinition MinWidth="50"/>
+                <ColumnDefinition MinWidth="50"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"></RowDefinition>
+                <RowDefinition Height="35"></RowDefinition>
+                <RowDefinition Height="205"></RowDefinition>
+                <RowDefinition Height="305"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Content="Ettevõtte nimi" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+            <TextBox x:Name="txtOrganizationName"  Grid.Column="1" HorizontalAlignment="Left" Margin="5,10,-0.4,0" VerticalAlignment="Top" Width="105" Text="{Binding CompanySearchName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" /> <!--KeyUp="KeyUpToExecuteEnter"-->
+            <Label Content="Ettevõtte kood" HorizontalAlignment="Left" Visibility="Hidden" Margin="10,10,0,0" Grid.Row="0" VerticalAlignment="Top" Grid.Column="2"/>
+            <TextBox x:Name="txtOrganizationNumber" Grid.Column="3" Visibility="Hidden" HorizontalAlignment="Left" Margin="5,9.6,-0.4,0" Grid.Row="0" VerticalAlignment="Top" Width="95" Text="{Binding CompanySearchRegNr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Button x:Name="btnSearch" Content="Otsi äriregistrist" HorizontalAlignment="Left" Margin="15,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="105" />
+            <!--<Button x:Name="btnCancel" Content="Tühista" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" />-->
+            <DataGrid x:Name="dgRegistryObjects" AutoGenerateColumns="False" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="204" VerticalAlignment="Top" Width="590" Grid.Row="2" ItemsSource="{Binding}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding registrikood}" Header="Reg. nr." />
+                    <DataGridTextColumn Binding="{Binding nimi}" Header="Nimi"/>
+                    <DataGridTemplateColumn  Header="Vali">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Click="ChooseOrganization">Vali ettevõte</Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <DataGrid x:Name="dgCreditors" AutoGenerateColumns="False" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="304" VerticalAlignment="Top" Width="590" Grid.Row="3" ItemsSource="{Binding}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Account}" Header="Account" />
+                    <DataGridTextColumn Binding="{Binding Name}" Header="Nimi"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

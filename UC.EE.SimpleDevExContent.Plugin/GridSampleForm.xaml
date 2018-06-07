@@ -1,0 +1,27 @@
+﻿<Pages:GridBasePage xmlns:Pages="clr-namespace:Uniconta.ClientTools.Page;assembly=ClientTools"
+                    xmlns:UnicontaControls="clr-namespace:Uniconta.ClientTools.Controls;assembly=ClientTools"
+                x:Class="UC.EE.SimpleDevExContent.Plugin.GridSampleForm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UC.EE.SimpleDevExContent.Plugin"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <UnicontaControls:UnicontaRibbonControl x:Name="localMenu"></UnicontaControls:UnicontaRibbonControl>
+        <!--<UnicontaControls:DateEditor x:Name="fromDate" Grid.Row="1"></UnicontaControls:DateEditor>-->
+
+        <local:CarGrid x:Name="carGrid" AutoGenerateColumns="None" Grid.Row="1">
+            <local:CarGrid.Columns>
+                <UnicontaControls:UnicontaDataGridTemplateColumn x:Name="Model"/>
+                <UnicontaControls:UnicontaDataGridTemplateColumn x:Name="Mark"/>
+                <UnicontaControls:UnicontaDataGridTemplateColumn x:Name="Year" Width="90"/>
+            </local:CarGrid.Columns>
+        </local:CarGrid>
+    </Grid>
+</Pages:GridBasePage>

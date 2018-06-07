@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6CD24259-1ED0-4D98-89D7-50A3FC8D61B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UC.EE.SimpleDevExContent.Plugin</RootNamespace>
+    <AssemblyName>UC.EE.SimpleDevExContent.Plugin</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClientTools">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\ClientTools.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Charts.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.CodeParser.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Dashboard.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v17.2.Wpf">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Dashboard.v17.2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Data.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.DataAccess.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Diagram.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Diagram.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Docs.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Docs.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Images.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Map.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Map.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Mvvm.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Office.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Pdf.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.2.Drawing">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Pdf.v17.2.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.PivotGrid.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Printing.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.RichEdit.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.2.Export">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.RichEdit.v17.2.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Sparkline.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Spreadsheet.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Spreadsheet.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.TreeMap.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.TreeMap.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Utils.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.2.UI">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Utils.v17.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Charts.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Charts.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.CodeView.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.CodeView.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Controls.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Controls.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Core.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Dashboard.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Dashboard.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.DataAccess.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.DataAccess.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.DemoBase.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.DemoBase.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Diagram.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Diagram.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Docking.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.DocumentViewer.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.DocumentViewer.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.ExpressionEditor.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.ExpressionEditor.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Gauges.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Gauges.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Grid.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Grid.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v17.2.Extensions">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Grid.v17.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Layout.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.LayoutControl.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Map.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Map.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.NavBar.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.NavBar.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.PdfViewer.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.PdfViewer.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.PivotGrid.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.PivotGrid.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Printing.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.PropertyGrid.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.PropertyGrid.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.ReportDesigner.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.ReportDesigner.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Ribbon.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.RichEdit.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.RichEdit.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Scheduler.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Scheduler.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Scheduling.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Scheduling.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Spreadsheet.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Spreadsheet.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.DXStyle.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Themes.DXStyle.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisDark.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Themes.MetropolisDark.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisLight.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Themes.MetropolisLight.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2010Blue.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Themes.Office2010Blue.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2016White.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Themes.Office2016White.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.TreeMap.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.TreeMap.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpo.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraCharts.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraEditors.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraGauges.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.2.Presets">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraGauges.v17.2.Presets.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.2.Win">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraGauges.v17.2.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraMap.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraMap.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraPrinting.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraReports.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.2.Extensions">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraReports.v17.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraRichEdit.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v17.2.Core">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraScheduler.v17.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeMap.v17.2">
+      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraTreeMap.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Uniconta.Common, Version=1.0.6646.18093, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniconta.Common.1.1.70\lib\portable40-net40+win8\Uniconta.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Uniconta.WindowsAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniconta.WindowsAPI.1.1.73.1\lib\net45\Uniconta.WindowsAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormPageSampleForm.xaml.cs">
+      <DependentUpon>FormPageSampleForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GridSampleForm.xaml.cs">
+      <DependentUpon>GridSampleForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Cars.cs" />
+    <Compile Include="SimpleDevExContent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="FormPageSampleForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GridSampleForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
