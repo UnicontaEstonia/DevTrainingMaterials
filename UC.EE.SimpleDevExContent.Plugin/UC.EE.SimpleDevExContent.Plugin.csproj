@@ -31,223 +31,247 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ClientTools">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\ClientTools.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\ClientTools.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Charts.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Charts.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Charts.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Charts.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.CodeParser.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.CodeParser.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.CodeParser.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.CodeParser.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Dashboard.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Dashboard.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Dashboard.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Dashboard.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Dashboard.v17.2.Wpf">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Dashboard.v17.2.Wpf.dll</HintPath>
+    <Reference Include="DevExpress.Dashboard.v18.2.Wpf">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Dashboard.v18.2.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Data.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Data.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Data.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Data.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.DataAccess.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.DataAccess.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.DataAccess.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Diagram.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Diagram.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Diagram.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Diagram.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Docs.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Docs.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Dialogs.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Dialogs.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Images.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Images.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Docs.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Docs.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Map.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Map.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Images.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Images.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Mvvm.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Mvvm.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Map.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Map.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Office.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Office.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Mvvm.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Mvvm.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Pdf.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Office.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Office.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v17.2.Drawing">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Pdf.v17.2.Drawing.dll</HintPath>
+    <Reference Include="DevExpress.Pdf.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Pdf.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.PivotGrid.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.PivotGrid.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Pdf.v18.2.Drawing">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Pdf.v18.2.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Printing.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Printing.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.PivotGrid.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.PivotGrid.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.RichEdit.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Printing.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Printing.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v17.2.Export">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.RichEdit.v17.2.Export.dll</HintPath>
+    <Reference Include="DevExpress.RichEdit.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.RichEdit.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Sparkline.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.RichEdit.v18.2.Export">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.RichEdit.v18.2.Export.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Spreadsheet.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Spreadsheet.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Sparkline.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Sparkline.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.TreeMap.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.TreeMap.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Spreadsheet.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Spreadsheet.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Utils.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Utils.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.TreeMap.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.TreeMap.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Utils.v17.2.UI">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Utils.v17.2.UI.dll</HintPath>
+    <Reference Include="DevExpress.Utils.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Utils.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Charts.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Charts.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Utils.v18.2.UI">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Utils.v18.2.UI.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.CodeView.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.CodeView.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Charts.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Charts.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Controls.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Controls.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.CodeView.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.CodeView.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Core.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Controls.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Controls.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Dashboard.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Dashboard.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Core.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Core.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.DataAccess.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.DataAccess.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Dashboard.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Dashboard.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.DemoBase.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.DemoBase.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.DataAccess.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.DataAccess.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Diagram.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Diagram.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.DemoBase.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.DemoBase.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Docking.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Docking.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Diagram.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Diagram.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.DocumentViewer.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.DocumentViewer.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Dialogs.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Dialogs.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.ExpressionEditor.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.ExpressionEditor.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Docking.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Docking.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Gauges.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Gauges.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.DocumentViewer.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.DocumentViewer.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Grid.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.ExpressionEditor.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.ExpressionEditor.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Grid.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Gauges.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Gauges.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v17.2.Extensions">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Grid.v17.2.Extensions.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Grid.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Grid.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Layout.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Layout.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Grid.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Grid.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.LayoutControl.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.LayoutControl.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Grid.v18.2.Extensions">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Grid.v18.2.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Map.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Map.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Layout.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Layout.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.NavBar.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.NavBar.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.LayoutControl.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.PdfViewer.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.PdfViewer.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Map.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Map.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.PivotGrid.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.PivotGrid.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.NavBar.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.NavBar.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Printing.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Printing.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.PdfViewer.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.PdfViewer.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.PropertyGrid.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.PropertyGrid.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.PivotGrid.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.PivotGrid.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.ReportDesigner.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.ReportDesigner.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Printing.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Printing.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Ribbon.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Ribbon.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.PropertyGrid.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.PropertyGrid.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.RichEdit.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.RichEdit.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.ReportDesigner.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.ReportDesigner.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Scheduler.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Scheduler.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Ribbon.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Ribbon.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Scheduling.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Scheduling.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.RichEdit.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.RichEdit.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Spreadsheet.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Spreadsheet.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Scheduler.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Scheduler.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.DXStyle.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Themes.DXStyle.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Scheduling.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Scheduling.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.MetropolisDark.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Themes.MetropolisDark.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Spreadsheet.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Spreadsheet.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.MetropolisLight.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Themes.MetropolisLight.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Themes.DXStyle.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Themes.DXStyle.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.Office2010Blue.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Themes.Office2010Blue.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisDark.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Themes.MetropolisDark.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.Office2016White.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.Themes.Office2016White.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisLight.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Themes.MetropolisLight.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.TreeMap.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpf.TreeMap.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Themes.Office2010Blue.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Themes.Office2010Blue.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpo.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.Xpo.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Themes.Office2016ColorfulSE.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Themes.Office2016ColorfulSE.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraCharts.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.Themes.Office2016White.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.Themes.Office2016White.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraEditors.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.Xpf.TreeMap.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpf.TreeMap.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraGauges.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraGauges.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.Xpo.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.Xpo.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraGauges.v17.2.Presets">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraGauges.v17.2.Presets.dll</HintPath>
+    <Reference Include="DevExpress.XtraBars.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraBars.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraGauges.v17.2.Win">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraGauges.v17.2.Win.dll</HintPath>
+    <Reference Include="DevExpress.XtraCharts.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraCharts.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraMap.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraMap.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.XtraCharts.v18.2.Extensions">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraCharts.v18.2.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraPrinting.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.XtraEditors.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraEditors.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraReports.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.XtraGauges.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraGauges.v18.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v17.2.Extensions">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraReports.v17.2.Extensions.dll</HintPath>
+    <Reference Include="DevExpress.XtraGauges.v18.2.Presets">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraGauges.v18.2.Presets.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraRichEdit.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.XtraLayout.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraLayout.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraScheduler.v17.2.Core">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraScheduler.v17.2.Core.dll</HintPath>
+    <Reference Include="DevExpress.XtraMap.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraMap.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraTreeMap.v17.2">
-      <HintPath>..\..\..\..\..\..\..\tempdlls\DevExpress.XtraTreeMap.v17.2.dll</HintPath>
+    <Reference Include="DevExpress.XtraPrinting.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraPrinting.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraReports.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v18.2.Extensions">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraReports.v18.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraRichEdit.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v18.2.Core">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraScheduler.v18.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraTreeList.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeMap.v18.2">
+      <HintPath>..\..\..\..\..\..\jaan\tmpdlls\DevExpress.XtraTreeMap.v18.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xaml" />
@@ -257,11 +281,11 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="Uniconta.Common, Version=1.0.6646.18093, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniconta.Common.1.1.70\lib\portable40-net40+win8\Uniconta.Common.dll</HintPath>
+    <Reference Include="Uniconta.Common, Version=1.0.7092.22476, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniconta.Common.1.1.81.3\lib\portable40-net40+win8\Uniconta.Common.dll</HintPath>
     </Reference>
     <Reference Include="Uniconta.WindowsAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniconta.WindowsAPI.1.1.73.1\lib\net45\Uniconta.WindowsAPI.dll</HintPath>
+      <HintPath>..\packages\Uniconta.WindowsAPI.1.1.81.3\lib\net452\Uniconta.WindowsAPI.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>
@@ -277,9 +301,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Page Include="FormPageSampleForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -288,6 +309,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
